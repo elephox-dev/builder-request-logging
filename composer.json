@@ -1,0 +1,20 @@
+{
+    "name": "elephox/builder-request-logging",
+    "description": "Elephox Web Application Builder extension for the request logging middleware",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ],
+    "require": {
+        "elephox/web": "^0.4"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Elephox\\Builder\\RequestLogging\\": "src/"
+        }
+    }
+}
