@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "elephox/web": "^0.4"
+        "elephox/web": "dev-develop"
     },
     "minimum-stability": "dev",
     "autoload": {
