@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!*.iml
+!php.xml
+!modules.xml
+!vcs.xml

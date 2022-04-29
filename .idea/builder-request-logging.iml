@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Elephox\Builder\RequestLogging\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/web" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/files" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/platform" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/autoloading" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/mimey" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jetbrains/phpstorm-attributes" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/configuration" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/logging" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/stream" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/support" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/di" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/oor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ricardoboss/php-console-logger" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
