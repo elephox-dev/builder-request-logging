@@ -36,7 +36,9 @@ class LoggingMiddleware implements WebMiddleware
 
 	protected function getMessage(Request $request, ResponseBuilder $response): string
 	{
-		return sprintf('[%s] %s', $response->getResponseCode()?->value ?? 'unknown', $request->getUrl()->path);
+		$responseCode = $response->getResponseCode()?->value ?? -1;
+
+		return sprintf('[%s] %s', $responseCode < 0 ? 'unknown' : (string)$responseCode, $request->getUrl()->path);
 	}
 
 	protected function getContext(Request $request, ResponseBuilder $response): array

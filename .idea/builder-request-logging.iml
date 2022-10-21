@@ -9,7 +9,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/files" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/http" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/collection" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/platform" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/autoloading" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/elephox/mimey" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jetbrains/phpstorm-attributes" />
@@ -29,7 +28,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/graham-campbell/result-type" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ricardoboss/php-console-logger" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/php-cs-fixer/diff" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
@@ -48,6 +46,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

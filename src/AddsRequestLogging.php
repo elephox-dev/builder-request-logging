@@ -14,9 +14,8 @@ trait AddsRequestLogging
 
 	public function addRequestLogging(): void
 	{
-		if ($this->getServices()->has(LoggingMiddleware::class)) {
-			$middleware = $this->getServices()->requireService(LoggingMiddleware::class);
-		} else {
+		$middleware = $this->getServices()->get(LoggingMiddleware::class);
+		if ($middleware === null) {
 			$middleware = $this->getServices()->resolver()->instantiate(LoggingMiddleware::class);
 		}
 

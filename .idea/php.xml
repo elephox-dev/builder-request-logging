@@ -13,7 +13,6 @@
       <path value="$PROJECT_DIR$/vendor/elephox/files" />
       <path value="$PROJECT_DIR$/vendor/elephox/http" />
       <path value="$PROJECT_DIR$/vendor/elephox/collection" />
-      <path value="$PROJECT_DIR$/vendor/elephox/platform" />
       <path value="$PROJECT_DIR$/vendor/elephox/autoloading" />
       <path value="$PROJECT_DIR$/vendor/elephox/mimey" />
       <path value="$PROJECT_DIR$/vendor/jetbrains/phpstorm-attributes" />
@@ -33,7 +32,6 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/ricardoboss/php-console-logger" />
-      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
@@ -52,6 +50,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
