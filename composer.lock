@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b79df2f54c0ed5677a001b85561578c",
+    "content-hash": "dab096b39862421a0d4cef92f450e803",
     "packages": [
         {
             "name": "elephox/autoloading",
@@ -572,16 +572,16 @@
         },
         {
             "name": "elephox/web",
-            "version": "dev-develop",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elephox-dev/web.git",
-                "reference": "1bbd58fbadffc710ade974f6e824a292fda984ed"
+                "reference": "01d79624d2273f529feeed0b13a3dfd05b268673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elephox-dev/web/zipball/1bbd58fbadffc710ade974f6e824a292fda984ed",
-                "reference": "1bbd58fbadffc710ade974f6e824a292fda984ed",
+                "url": "https://api.github.com/repos/elephox-dev/web/zipball/01d79624d2273f529feeed0b13a3dfd05b268673",
+                "reference": "01d79624d2273f529feeed0b13a3dfd05b268673",
                 "shasum": ""
             },
             "require": {
@@ -592,7 +592,6 @@
                 "elephox/di": "dev-develop",
                 "elephox/files": "dev-develop",
                 "elephox/http": "dev-develop",
-                "elephox/mimey": "^4.0",
                 "elephox/oor": "dev-develop",
                 "elephox/support": "dev-develop",
                 "ext-mbstring": "*",
@@ -600,7 +599,6 @@
                 "php": "^8.1 <8.3",
                 "symfony/process": "^6.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -622,7 +620,7 @@
                 "issues": "https://github.com/elephox-dev/framework/issues",
                 "source": "https://github.com/elephox-dev/framework"
             },
-            "time": "2022-10-21T14:38:40+00:00"
+            "time": "2022-07-02T22:54:34+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -2963,7 +2961,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "elephox/web": 20,
         "friendsofphp/php-cs-fixer": 20
     },
     "prefer-stable": true,
