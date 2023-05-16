@@ -12,8 +12,13 @@ trait AddsRequestLogging
 
 	abstract protected function getPipeline(): RequestPipelineBuilder;
 
-	public function addRequestLogging(): void
+	public function addRequestLogging(?RequestLoggingConfiguration $config = null): void
 	{
+		if ($config === null)
+			$this->getServices()->addSingleton(RequestLoggingConfiguration::class, factory: RequestLoggingConfiguration::fromAppConfiguration(...));
+		else
+			$this->getServices()->addSingleton(RequestLoggingConfiguration::class, instance: $config);
+
 		$this->getServices()->addSingleton(LoggingMiddleware::class);
 		$this->getPipeline()->push(LoggingMiddleware::class);
 	}
