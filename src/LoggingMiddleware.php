@@ -79,13 +79,13 @@ readonly class LoggingMiddleware implements WebMiddleware
 			'request' => [
 				'method' => $request->getMethod(),
 				'url' => $request->getUrl()->toArray(),
-				'headers' => $request->getHeaderMap()->toArray(),
+				'headers' => $request->getHeaderMap()->select(fn (array|string $v) => is_array($v) && count($v) === 1 ? $v[0] : $v)->toArray(),
 				'protocol_version' => $request->getProtocolVersion(),
 			],
 			'response' => [
 				'code' => $response->getResponseCode(),
 				'content_type' => $response->getContentType(),
-				'headers' => $response->getHeaderMap()?->toArray(),
+				'headers' => $response->getHeaderMap()?->select(fn (array|string $v) => is_array($v) && count($v) === 1 ? $v[0] : $v)->toArray(),
 				'protocol_version' => $response->getProtocolVersion(),
 			],
 		];
