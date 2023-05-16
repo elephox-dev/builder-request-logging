@@ -68,7 +68,7 @@ class LoggingMiddleware implements WebMiddleware
 			$data['request']['server'] = $request->getParameterMap()->allFrom(ParameterSource::Server)->toArray();
 			$data['request']['post'] = $request->getParameterMap()->allFrom(ParameterSource::Post)->toArray();
 			$data['request']['session'] = $request->getSessionMap()?->toArray();
-			$data['request']['files'] = $request->getUploadedFiles()->toArray();
+			$data['request']['files'] = $request->getUploadedFileMap()->toArray();
 		}
 
 		if ($exception = $response->getException()) {
