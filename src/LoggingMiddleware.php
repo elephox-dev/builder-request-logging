@@ -64,10 +64,10 @@ class LoggingMiddleware implements WebMiddleware
 		if ($request instanceof ServerRequest) {
 			// TODO: improve context for ServerRequest instances
 
-			$data['request']['cookies'] = $request->getCookies()->toArray();
-			$data['request']['server'] = $request->getParameters()->allFrom(ParameterSource::Server)->toArray();
-			$data['request']['post'] = $request->getParameters()->allFrom(ParameterSource::Post)->toArray();
-			$data['request']['session'] = $request->getSession()?->toArray();
+			$data['request']['cookies'] = $request->getCookieMap()->toArray();
+			$data['request']['server'] = $request->getParameterMap()->allFrom(ParameterSource::Server)->toArray();
+			$data['request']['post'] = $request->getParameterMap()->allFrom(ParameterSource::Post)->toArray();
+			$data['request']['session'] = $request->getSessionMap()?->toArray();
 			$data['request']['files'] = $request->getUploadedFiles()->toArray();
 		}
 
